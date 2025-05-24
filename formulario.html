@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udonessocks - Contacto</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/ISO_UDONES.png" alt="Logo Udonessocks" width="120" />
+      <h1>Udonessocks</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="formulario.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Pedido de presupuesto</h2>
+        <form>
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" required />
+          <label for="email">Email de contacto:</label>
+          <input type="email" id="email" required />
+          <label for="modelo">Modelo deseado:</label>
+          <select id="modelo">
+            <option>Andes</option>
+            <option>Pop Art</option>
+            <option>Clásica UD</option>
+          </select>
+          <label
+            ><input type="checkbox" /> Quiero recibir novedades por mail</label
+          >
+          <label for="comentario">Detalles o cantidades:</label>
+          <textarea id="comentario"></textarea>
+          <input type="text" value="Solo lectura - Udonessocks" disabled />
+          <button type="submit">Enviar pedido</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <img
+          src="img/logo-instagram.png"
+          alt="Instagram"
+          width="24"
+          style="vertical-align: middle"
+        />
+        <img
+          src="img/logo-facebook.png"
+          alt="Facebook"
+          width="24"
+          style="vertical-align: middle; margin-left: 8px"
+        />
+        Contacto:
+        <a href="mailto:info@udonessocks.com">info@udonessocks.com</a>
+      </p>
+    </footer>
+  </body>
+</html>
