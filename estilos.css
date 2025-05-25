@@ -1,20 +1,15 @@
-@font-face {
-  font-family: "UdoneFont";
-  src: url("assets/fuentes/tipografia-personalizada.woff2") format("woff2");
-}
-
 :root {
-  --color-fondo: #d49797;
-  --color-principal: #8f8fac;
-  --color-texto-principal: #ffffff;
-  --color-card: #f1f2f6;
-  --color-borde: #dcdde1;
-  --color-fondo-main: #ffffff;
-  --color-acento: #ffc312;
+  --color-fondo: #fdf6f0;
+  --color-principal: #a3c4f3;
+  --color-texto-principal: #333333;
+  --color-card: #ffffff;
+  --color-borde: #d1d1d1;
+  --color-fondo-main: #fff9f4;
+  --color-acento: #f7b267;
 }
 
 body {
-  font-family: "UdoneFont", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: var(--color-fondo);
@@ -106,12 +101,12 @@ button {
   }
   header h1,
   footer p {
-    font-size: 16px;
+    font-size: 18px;
   }
   input,
   select,
   textarea,
   button {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
